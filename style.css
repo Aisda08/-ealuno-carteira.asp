@@ -1,16 +1,20 @@
 body {
     display: flex;
-    justify-content: center; /* horizontal */
-    align-items: center;     /* vertical */
-    height: 100vh;           /* altura da tela inteira */
+    justify-content: center;
+    align-items: center;
     min-height: 100dvh;
     margin: 0;
     background-color: #00000066;
+    padding: 16px;
+    box-sizing: border-box;
+    overflow-y: auto;
 }
 
 #card {
     color: white;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    max-width: 95vw;
+    max-height: 95dvh;
 }
 
 .card-data {
@@ -32,5 +36,10 @@ body {
         transform: rotate(90deg);
         width: 100vh;
         height: 100vw;
+        align-items: flex-start;
+    }
+    
+    #card {
+        margin-top: 20px;
     }
 }
