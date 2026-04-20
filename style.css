@@ -13,8 +13,6 @@ body {
 #card {
     color: white;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
-    max-width: 95vw;
-    max-height: 95dvh;
 }
 
 .card-data {
@@ -36,10 +34,5 @@ body {
         transform: rotate(90deg);
         width: 100vh;
         height: 100vw;
-        align-items: flex-start;
-    }
-    
-    #card {
-        margin-top: 20px;
     }
 }
