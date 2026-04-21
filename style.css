@@ -5,7 +5,6 @@ body {
     height: 100vh;           /* altura da tela inteira */
     min-height: 100dvh;
     margin: 0;
-    margin-left: -195px;
     background-color: #00000066;
 }
 
